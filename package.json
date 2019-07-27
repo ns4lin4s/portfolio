@@ -1,0 +1,29 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "keywords": [
+    "css3",
+    "html5",
+    "typescript",
+    "webpack"
+  ],
+  "devDependencies": {
+    "expose-loader": "0.7.5",
+    "ts-loader": "4.4.2",
+    "typescript": "2.9.2",
+    "webpack": "4.15.0",
+    "webpack-cli": "3.0.8",
+    "webpack-dev-server": "3.1.4"
+  },
+  "scripts": {
+    "dev": "webpack --mode development && webpack-dev-server --mode development",
+    "build": "webpack --mode production && webpack-dev-server --mode production"
+  },
+  "author": "nelson osvaldo salinas guajardo",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}
